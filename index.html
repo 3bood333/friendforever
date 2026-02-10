@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulBound | Forever</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">SOUL<span>BOUND</span></div>
+    <div class="lang-toggle">
+        <button onclick="setLang('en')" id="en-btn" class="active">EN</button>
+        <button onclick="setLang('it')" id="it-btn">IT</button>
+    </div>
+</nav>
+
+<header class="main-cover">
+    <div class="overlay"></div>
+    <img src="لقطة شاشة 2026-02-10 202837.png" alt="Cover" class="bg-img">
+    <div class="hero-text">
+        <h1 id="h-title">Our Eternal Bond</h1>
+        <p id="h-desc">A sanctuary for our most precious moments.</p>
+    </div>
+</header>
+
+<div class="content-container">
+    <section class="glass-box fade-up">
+        <h2 id="c-title">Time Together</h2>
+        <div class="timer-display">
+            <div class="unit"><span id="days">0</span><p id="l-days">Days</p></div>
+            <div class="unit"><span id="hours">0</span><p id="l-hours">Hours</p></div>
+            <div class="unit"><span id="minutes">0</span><p id="l-min">Min</p></div>
+            <div class="unit"><span id="seconds">0</span><p id="l-sec">Sec</p></div>
+        </div>
+    </section>
+
+    <section class="glass-box fade-up">
+        <h2 id="m-title">Heart Scroll</h2>
+        <textarea id="messageBox" placeholder="Write your heart here..."></textarea>
+        <button onclick="saveMessage()" class="action-btn" id="s-btn">Seal This Memory</button>
+    </section>
+
+    <section class="glass-box fade-up">
+        <h2 id="g-title">Memories Gallery</h2>
+        <div class="gallery-grid">
+            <div class="img-wrapper"><img src="لقطة شاشة 2026-02-10 200957.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="لقطة شاشة 2026-02-10 202054.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="لقطة شاشة 2026-02-10 205438.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="صورة 1.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="صورة2.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="صورة3.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="صورة4.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="صورة5.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="صورة7.png" alt="Memory"></div>
+            <div class="img-wrapper"><img src="صورة8.png" alt="Memory"></div>
+             <div class="img-wrapper"><img src="صورة9.png" alt="Memory"></div>
+             
+            </div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
